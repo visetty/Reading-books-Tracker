@@ -51,10 +51,11 @@ li a.active {
   }
 
   .wrapper > div{
-    background:#eee;
-    padding:2em;
+    background: #282828 ;
+    padding: 2em;
     border: 1em;
+    color : white;
   }
   .wrapper > div:nth-child(odd){
-    background:#ddd;
+    background: #888888;
   }
