@@ -1,10 +1,10 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 
 }
 
@@ -13,20 +13,21 @@ li {
 }
 
 li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 li a:hover:not(.active) {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 li a.active {
-    color: white;
-    background-color: gray;
+  color: white;
+  background-color: gray;
 }
 
 .main-heading {
@@ -38,3 +39,22 @@ li a.active {
   font-size: 50px;
   color: #000;
 }
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 69% 30%;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    */
+    grid-gap:1em;
+  }
+
+  .wrapper > div{
+    background:#eee;
+    padding:2em;
+    border: 1em;
+  }
+  .wrapper > div:nth-child(odd){
+    background:#ddd;
+  }
